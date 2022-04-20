@@ -9,8 +9,9 @@ const Register = () => {
     navigate("/login");
   };
 
-  const handlerRegister = (event) => {
+  const handleRegister = (event) => {
     event.preventDefault();
+    console.log(event.target.value);
   };
 
   return (
@@ -48,7 +49,7 @@ const Register = () => {
         </div>
 
         <button
-          onClick={handlerRegister}
+          onClick={handleRegister}
           type="submit"
           className="btn btn-primary w-25 d-block mx-auto mt-3 mb-2"
         >
