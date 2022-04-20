@@ -24,7 +24,7 @@ const Header = () => {
               <Link to="/">Home</Link>
               <Link to="/about">About</Link>
               <Link to="/services">Services</Link>
-              <Link to="/experts">Experts</Link>
+              <Link to="#experts">Experts</Link>
               <Link to="/Login">Login</Link>
             </Nav>
           </Navbar.Collapse>
