@@ -1,0 +1,8 @@
+nav a {
+  margin: 0px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+nav a:hover {
+  color: burlywood;
+}
