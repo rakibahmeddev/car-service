@@ -58,7 +58,10 @@ const Login = () => {
         </Button>
       </Form>
       <p className="text-center mt-3" onClick={navigateRegister}>
-        New to car servicing? <span className="text-primary">Register</span>
+        New to car servicing?{" "}
+        <span className="text-primary" style={{ cursor: "pointer" }}>
+          Register
+        </span>
       </p>
     </div>
   );
